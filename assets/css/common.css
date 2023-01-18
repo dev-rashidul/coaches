@@ -47,6 +47,19 @@ img {
   max-width: 100%;
 }
 
+p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.primary-btn {
+  font-size: 16px;
+  color: var(--light);
+  background: var(--primary);
+  padding: 5px 22px;
+  border-radius: 50px;
+}
+
 /* Base Styles CSS Start */
 
 /* Navigation Section CSS Start */
@@ -77,22 +90,10 @@ nav.navbar .container-fluid {
   padding: 0 15px !important;
 }
 
-a.login {
-  font-weight: 600;
-  text-transform: capitalize;
-  padding: 14px 40px;
-  margin-left: 15px;
-  color: #ffffff;
-  background: #ff4646;
-  border: 1px solid #ff4646;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-a.login:hover {
-  color: #ff4646;
-  background: transparent;
-  border: 1px solid #ff4646;
+.nav-buttons .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .navbar-toggler {
@@ -150,20 +151,6 @@ a.login:hover {
 
 .navbar-toggler.collapsed .toggler-icon {
   background-color: #151515;
-}
-
-.nav-buttons .user img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-}
-
-.nav-buttons .join {
-  font-size: 16px;
-  color: var(--light);
-  background: var(--primary);
-  padding: 5px 22px;
-  border-radius: 50px;
 }
 
 @media (max-width: 1200px) {

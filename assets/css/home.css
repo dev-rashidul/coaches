@@ -1,0 +1,99 @@
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding: 200px 0 100px;
+  background: var(--secondary);
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero-content {
+  position: relative;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 80px 80px 60px 60px;
+  margin-left: -120px;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+
+.hero-content h2 {
+  position: relative;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.hero-content h2::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  right: 0;
+  bottom: 0;
+  background: #1c81ca;
+}
+
+.hero-slider .owl-prev {
+  position: absolute;
+  bottom: 50px;
+  right: 80px;
+  background: red;
+}
+
+.hero-slider .owl-next {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  background: red;
+}
+
+/* Hero Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-content {
+    margin-top: 30px;
+    padding: 60px;
+  }
+  .hero-content h2 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content {
+    margin-top: 30px;
+    padding: 40px 30px;
+  }
+  .hero-content h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content {
+    margin-top: 30px;
+    padding: 40px 30px;
+    margin-left: 0;
+  }
+  .hero-content h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-content {
+    margin-top: 30px;
+    padding: 40px 20px;
+    margin-left: 0;
+  }
+  .hero-content h2 {
+    font-size: 28px;
+  }
+}
