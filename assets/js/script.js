@@ -1,26 +1,15 @@
-// $(".hero-slider").owlCarousel({
-//     loop: true,
-//     rtl: true,
-//     autoplay:true,
-//     autoplayTimeout:3000,
-//     smartSpeed:450,
-//     animateOut: 'slideOutDown',
-//     animateIn: 'flipInX',
-//     nav: true,
-//     dots: false,
-//     navText:['<i class="fa-solid fa-chevron-right"></i>','<i class="fa-solid fa-chevron-left"></i>'],
-//     responsive: {
-//       0: {
-//         items: 1,
-//       },
-//     },
-//   });
-
-
 $('.hero-slider').slick({
+    arrows: true,
+    dots: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
+    fade:true,
+    pauseOnHover: false,
+    //infinite: true,
+    Speed: 800,
     rtl: true,
-
-  });
-          
+    prevArrow: '<span class="slick-prev"><i class="fa-solid fa-chevron-left"></i></span>',
+    nextArrow: '<span class="slick-next"><i class="fa-solid fa-chevron-right"></i></span>',
+});
