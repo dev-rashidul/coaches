@@ -85,6 +85,125 @@
 
 /* Hero Section CSS End */
 
+/* Main Part CSS Start */
+
+/* Coaches Index Section CSS Start */
+
+.coaches-index-wrapper {
+  padding: 120px 0;
+}
+
+.coaches-index-form form {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.coaches-index-form-field {
+  max-width: 250px;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.coaches-index-form-field select,
+.coaches-index-form-field input {
+  width: 100%;
+  font-weight: 500;
+  color: var(--dark);
+  padding: 10px 20px;
+  border: 1px solid #342d2c;
+  border-radius: 30px;
+}
+
+.coaches-index-form-field select:focus,
+.coaches-index-form-field input:focus {
+  outline: 0;
+}
+
+.coaches-index-button-field button {
+  width: 100px;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+.coaches-index-form ::placeholder {
+  color: #bfbfbf;
+}
+
+/* Coaches Index Section CSS End */
+
+/* Leading Area Section CSS Start */
+
+.leading-area-btn a {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  transform: translateX(-50%);
+  color: var(--dark);
+  background: var(--light);
+  padding: 7px 25px;
+  border-radius: 30px;
+}
+
+.leading-slider .slick-prev.slick-arrow {
+  position: absolute;
+  left: 35px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px #00000024;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.leading-slider .slick-next.slick-arrow {
+  position: absolute;
+  left: 85px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px #00000024;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.leading-see-more-btn a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f26b5f;
+}
+
+.leading-see-more-btn a i {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+/* Leading Area Section CSS End */
+
+/* Who We Are Section CSS Start */
+
+.who-we-are-wrapper {
+  padding: 120px 0;
+}
+
+/* Who We Are Section CSS End */
+
+/* Main Part CSS End */
+
 /* Responsive CSS */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -121,6 +240,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .section-title h2 {
+    font-size: 36px;
+  }
+
   .hero-content {
     margin-top: 30px;
     padding: 40px 30px;
@@ -144,6 +267,10 @@
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+
   .hero-content {
     margin-top: 30px;
     padding: 40px 20px;
@@ -171,5 +298,13 @@
 
   .hero-slider .slick-next.slick-arrow {
     right: 20px;
+  }
+
+  .coaches-index-form form {
+    flex-direction: column;
+  }
+
+  .coaches-index-form-field {
+    max-width: 300px;
   }
 }
