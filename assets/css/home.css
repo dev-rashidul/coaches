@@ -200,7 +200,131 @@
   padding: 120px 0;
 }
 
+.services-cards {
+  padding-top: 120px;
+}
+
+.service-card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 8px 8px 25px #00000016;
+  padding: 60px;
+  border-radius: 16px;
+}
+
+.service-card h4 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.service-card h5 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin: 0;
+}
+
 /* Who We Are Section CSS End */
+
+/* Commitee Section CSS Start */
+
+.commitee-chairman-info {
+  display: flex;
+  background: var(--light);
+  border: 3px solid var(--gray);
+  margin-top: 60px;
+  border-radius: 16px;
+}
+
+.commitee-chairman-img {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray);
+}
+
+.commitee-chairman-img img {
+  max-width: 265px;
+  width: 265px;
+  height: 265px;
+  border-radius: 100%;
+}
+
+.commitee-chairman-content {
+  flex: 1;
+  padding: 50px;
+}
+
+.commitee-chairman-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.commitee-chairman-content h6 {
+  font-size: 20px;
+  color: var(--dark);
+  margin: 0;
+}
+
+.commitee-chairman-content span {
+  display: block;
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.continue-reading-btn a {
+  color: var(--primary);
+}
+
+.continue-reading-btn a i {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.commitee-members {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.commitee-member-card {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  text-align: center;
+  background: var(--light);
+  border: 3px solid var(--gray);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.commitee-member-card-img {
+  padding-top: 30px;
+  margin-bottom: -40px;
+}
+
+.commitee-member-card-content {
+  width: 100%;
+  height: 100%;
+  background: var(--gray);
+  padding: 60px 10px 0;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.commitee-member-card-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+/* Commitee Section CSS End */
 
 /* Main Part CSS End */
 
@@ -237,6 +361,18 @@
   .hero-slider .slick-next.slick-arrow {
     bottom: 55px;
   }
+
+  .service-card h4 {
+    font-size: 34px;
+  }
+
+  .commitee-chairman-img {
+    max-width: 360px;
+  }
+
+  .commitee-members {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -263,6 +399,23 @@
   .hero-slider .slick-prev.slick-arrow,
   .hero-slider .slick-next.slick-arrow {
     bottom: 35px;
+  }
+
+  .service-card h4 {
+    font-size: 32px;
+  }
+
+  .commitee-chairman-info {
+    flex-direction: column;
+  }
+
+  .commitee-chairman-img {
+    max-width: 100%;
+    padding: 40px 0;
+  }
+
+  .commitee-members {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -306,5 +459,30 @@
 
   .coaches-index-form-field {
     max-width: 300px;
+  }
+
+  .service-card1 {
+    padding: 60px 30px;
+  }
+
+  .service-card h4 {
+    font-size: 28px;
+  }
+
+  .commitee-chairman-info {
+    flex-direction: column;
+  }
+
+  .commitee-chairman-img {
+    max-width: 100%;
+    padding: 40px 0;
+  }
+
+  .commitee-chairman-content {
+    padding: 50px 20px;
+  }
+
+  .commitee-members {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -1,0 +1,10 @@
+<svg id="Outline" xmlns="http://www.w3.org/2000/svg" width="59.991" height="59.991" viewBox="0 0 59.991 59.991">
+  <path id="Path_10" data-name="Path 10" d="M58.992,2H5A3,3,0,0,0,2,5V58.992a3,3,0,0,0,3,3H58.992a3,3,0,0,0,3-3V5A3,3,0,0,0,58.992,2Zm1,56.992a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V12H59.992ZM4,10V5A1,1,0,0,1,5,4H58.992a1,1,0,0,1,1,1v5Z" transform="translate(-2 -2)" fill="#f06c63"/>
+  <path id="Path_11" data-name="Path 11" d="M6.29,6.29A1.033,1.033,0,0,0,6,7a1,1,0,0,0,.08.38.933.933,0,0,0,.21.33A1,1,0,1,0,7.71,6.29,1.047,1.047,0,0,0,6.29,6.29Z" transform="translate(-2.001 -2.001)" fill="#f06c63"/>
+  <path id="Path_12" data-name="Path 12" d="M10.29,6.29A1.052,1.052,0,0,0,10,7a1.355,1.355,0,0,0,.02.2.636.636,0,0,0,.06.18.757.757,0,0,0,.09.18,1.576,1.576,0,0,0,.12.15,1.014,1.014,0,0,0,1.42,0l.12-.15a.757.757,0,0,0,.09-.18.636.636,0,0,0,.06-.18A1.355,1.355,0,0,0,12,7a1,1,0,0,0-1.71-.71Z" transform="translate(-2.001 -2.001)" fill="#f06c63"/>
+  <path id="Path_13" data-name="Path 13" d="M14.29,6.29a1,1,0,1,0,1.42,0,1.047,1.047,0,0,0-1.42,0Z" transform="translate(-2.002 -2.001)" fill="#f06c63"/>
+  <path id="Path_14" data-name="Path 14" d="M57.993,14H6V28H57.993Zm-2,12H8V16H55.993Z" transform="translate(-2.001 -2.002)" fill="#f06c63"/>
+  <path id="Path_15" data-name="Path 15" d="M24,30H6V58H24ZM22,56H8V32H22Z" transform="translate(-2.001 -2.004)" fill="#f06c63"/>
+  <path id="Path_16" data-name="Path 16" d="M26,43H58V30H26Zm2-11H56v9H28Z" transform="translate(-2.003 -2.004)" fill="#f06c63"/>
+  <path id="Path_17" data-name="Path 17" d="M26,58H58V45H26Zm2-11H56v9H28Z" transform="translate(-2.003 -2.006)" fill="#f06c63"/>
+</svg>
