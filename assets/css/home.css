@@ -9,6 +9,7 @@
   width: 100%;
   min-height: 500px;
   max-height: 500px;
+  object-fit: cover;
   height: 100%;
   border-radius: 10px;
 }
@@ -52,35 +53,13 @@
 }
 
 .hero-slider .slick-prev.slick-arrow {
-  position: absolute;
   bottom: 90px;
   right: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: #ffffff;
-  box-shadow: 0px 0px 8px #00000024;
-  border-radius: 100%;
-  cursor: pointer;
-  z-index: 1;
 }
 
 .hero-slider .slick-next.slick-arrow {
-  position: absolute;
   bottom: 90px;
   right: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: #ffffff;
-  box-shadow: 0px 0px 8px #00000024;
-  border-radius: 100%;
-  cursor: pointer;
-  z-index: 1;
 }
 
 /* Hero Section CSS End */
@@ -150,35 +129,13 @@
 }
 
 .leading-slider .slick-prev.slick-arrow {
-  position: absolute;
   left: 35px;
   bottom: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: #ffffff;
-  box-shadow: 0px 0px 8px #00000024;
-  border-radius: 100%;
-  cursor: pointer;
-  z-index: 1;
 }
 
 .leading-slider .slick-next.slick-arrow {
-  position: absolute;
   left: 85px;
   bottom: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  background: #ffffff;
-  box-shadow: 0px 0px 8px #00000024;
-  border-radius: 100%;
-  cursor: pointer;
-  z-index: 1;
 }
 
 .leading-see-more-btn a {
@@ -228,6 +185,10 @@
 /* Who We Are Section CSS End */
 
 /* Commitee Section CSS Start */
+
+.commitee-wrapper {
+  padding-bottom: 120px;
+}
 
 .commitee-chairman-info {
   display: flex;
@@ -326,7 +287,332 @@
 
 /* Commitee Section CSS End */
 
+/* Upcoming Events Section CSS Start */
+
+.upcoming-event-wrapper {
+  background: var(--secondary);
+  padding: 80px 0;
+}
+
+.upcoming-events-text-card h2 {
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.upcoming-events-card {
+  background: var(--light);
+  box-shadow: 8px 8px 25px #00000017;
+}
+
+.upcoming-events-card-img img {
+  width: 100%;
+  max-height: 180px;
+  min-height: 180px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px 10px 0 0;
+}
+
+.upcoming-events-card-content {
+  padding: 20px;
+}
+
+.upcoming-events-card-content h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.upcoming-events-card-content a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.upcoming-events-card-content a i {
+  font-size: 16px;
+}
+
+/* Upcoming Events Section CSS End */
+
+/* Collaboration Section CSS Start */
+
+.collaboration-wrapper {
+  padding: 120px 0;
+}
+
+.collaboration-companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.collab-compnaies-logo {
+  max-width: 250px;
+  width: 100%;
+  max-height: 180px;
+  min-height: 180px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+  margin-top: 20px;
+  box-shadow: 8px 8px 25px #00000017;
+  border-radius: 16px;
+}
+
+.collab-compnaies-logo h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #342d2c;
+}
+
+.collab-more-info-btn {
+  margin-top: 70px;
+}
+
+/* Collaboration Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  background: var(--secondary);
+  padding: 80px 0;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-title {
+  max-width: 450px;
+  width: 100%;
+}
+
+.testimonial-title h2 {
+  position: relative;
+  font-size: 44px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.testimonial-title h2::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  bottom: 0;
+  right: 0;
+  background: #1c81ca;
+}
+
+.testimonial-slider {
+  max-width: 750px;
+  width: 100%;
+  background: var(--light);
+  box-shadow: 8px 8px 25px #00000017;
+  border-radius: 10px;
+}
+
+.testimonial-slide {
+  position: relative;
+  padding: 60px;
+}
+
+.testimonal-client-info {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-client-info-img img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+.testimonial-client-info-text h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.testimonial-client-info-text p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.testimonial-quote {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+
+/* Testimonial Section CSS End */
+
+/* Schools Section CSS Start */
+
+.schools-wrapper {
+  padding: 120px 0;
+}
+
+.schools-slide {
+  position: relative;
+  padding: 60px 0 40px;
+}
+
+.schools-slide-logo {
+  max-width: 180px;
+  width: 100%;
+  margin: auto;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+  box-shadow: 8px 8px 25px #00000017;
+  border-radius: 16px;
+}
+
+.schools-slider .slick-prev.slick-arrow {
+  top: 50%;
+  left: -70px;
+  transform: translateY(-50%);
+}
+
+.schools-slider .slick-next.slick-arrow {
+  top: 50%;
+  right: -70px;
+  transform: translateY(-50%);
+}
+
+/* Schools Section CSS End */
+
+/* Articles Section CSS Start */
+
+.articles-wrapper {
+  padding-bottom: 120px;
+}
+
+.articles-slider {
+  margin-top: 60px;
+}
+
+.article-card-img img {
+  width: 100%;
+  min-height: 270px;
+  max-height: 270px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.article-card {
+  padding: 0 20px;
+}
+
+.article-card-img img {
+  width: 100%;
+  max-height: 270px;
+  min-height: 270px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.article-card-content {
+  padding-top: 10px;
+}
+
+.article-card-content h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #342d2c;
+}
+
+.article-card-content span {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.article-card-content a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.article-card-content i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.articles-slider .slick-prev.slick-arrow {
+  top: 50%;
+  left: -70px;
+  transform: translateY(-50%);
+}
+
+.articles-slider .slick-next.slick-arrow {
+  top: 50%;
+  right: -70px;
+  transform: translateY(-50%);
+}
+
+/* Articles Section CSS End */
+
 /* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #595b62;
+  padding: 60px 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+}
+
+.footer-menu h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--light);
+  margin: 0;
+}
+
+.footer-nav {
+  padding-top: 8px;
+}
+
+.footer-nav-alone {
+  padding-top: 33px;
+}
+
+.footer-nav li {
+  padding: 2px 0;
+}
+
+.footer-nav li a {
+  font-size: 16px;
+  color: var(--light);
+}
+
+.footer-copyright {
+  padding: 10px 0;
+  background: #343434;
+}
+
+.footer-copyright p {
+  font-size: 15px;
+  color: #bfbfbf;
+  margin: 0;
+}
+
+/* Footer Part CSS End */
 
 /* Responsive CSS */
 
@@ -338,6 +624,18 @@
 
   .hero-content h2 {
     font-size: 42px;
+  }
+
+  .upcoming-events-text-card h2 {
+    font-size: 38px;
+  }
+
+  .testimonial-slider {
+    max-width: 700px;
+  }
+
+  .footer-container {
+    gap: 50px;
   }
 }
 
@@ -372,6 +670,30 @@
 
   .commitee-members {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .upcoming-events-text-card h2 {
+    font-size: 32px;
+  }
+
+  .upcoming-events-card-content h4 {
+    font-size: 24px;
+  }
+
+  .collaboration-companies {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .testimonial-slider {
+    max-width: 600px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 40px;
+  }
+
+  .footer-container {
+    gap: 50px;
   }
 }
 
@@ -416,6 +738,44 @@
 
   .commitee-members {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .upcoming-events-text-card h2 {
+    font-size: 32px;
+  }
+
+  .upcoming-events-card-content h4 {
+    font-size: 24px;
+  }
+
+  .collaboration-companies {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+  }
+
+  .testimonial-slider {
+    margin-top: 50px;
+    max-width: 700px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 32px;
+  }
+
+  .schools-slider .slick-prev.slick-arrow {
+    left: 0px;
+  }
+
+  .schools-slider .slick-next.slick-arrow {
+    right: 0px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
 
@@ -484,5 +844,64 @@
 
   .commitee-members {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .upcoming-events-text-card h2 {
+    font-size: 28px;
+  }
+
+  .upcoming-events-card-content h4 {
+    font-size: 20px;
+  }
+
+  .collaboration-companies {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .collab-compnaies-logo {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+  }
+
+  .testimonial-slider {
+    margin-top: 50px;
+    max-width: 500px;
+  }
+
+  .testimonial-slide {
+    padding: 60px 20px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 30px;
+  }
+
+  .article-card-img img {
+    min-height: 180px;
+    max-height: 180px;
+    height: 100%;
+  }
+
+  .article-card-content h4 {
+    font-size: 20px;
+  }
+
+  .schools-slider .slick-prev.slick-arrow,
+  .articles-slider .slick-prev.slick-arrow {
+    left: -10px;
+  }
+
+  .schools-slider .slick-next.slick-arrow,
+  .articles-slider .slick-next.slick-arrow {
+    right: -10px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
