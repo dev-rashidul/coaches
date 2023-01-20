@@ -117,6 +117,10 @@
 
 /* Leading Area Section CSS Start */
 
+.leading-slide-img img {
+  width: 100%;
+}
+
 .leading-area-btn a {
   position: absolute;
   left: 50%;
