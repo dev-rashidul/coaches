@@ -1,0 +1,14 @@
+/* Organization Hero Section CSS Start */
+
+.organization-hero-wrapper {
+  padding: 100px 0;
+}
+
+.organization-hero-content {
+  max-width: 950px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Organization Hero Section CSS End */
