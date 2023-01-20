@@ -12,3 +12,145 @@
 }
 
 /* Vision Hero Section CSS End */
+
+/* Vision Principles Section CSS Start */
+
+.vision-principles-wrapper {
+  background: var(--gray);
+  border-radius: 16px;
+}
+
+.vision-principles-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 30px 0 50px;
+}
+
+.vision-principles-content h3 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.vision-join-btn {
+  margin-top: 40px;
+}
+
+.vision-principles-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 16px 16px 0;
+}
+
+/* Vision Principles Section CSS End */
+
+/* Vision Coaches Goals Section CSS Start */
+
+.vision-coaches-goals-wrapper {
+  padding: 120px 0;
+}
+
+.coaches-goals-card-container {
+  padding-top: 30px;
+}
+
+.coaches-goals-card {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 40px;
+  background: var(--light);
+  box-shadow: 8px 8px 25px #00000016;
+  border-radius: 16px;
+}
+
+.coaches-goals-card h5 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+  padding-top: 15px;
+}
+
+.coaches-goals-card p {
+  margin: 0;
+}
+
+.coaches-goals-text {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* Vision Coaches Goals Section CSS End */
+
+/* Vision Details Goals Section CSS Start */
+
+.vision-details-goals-wrapper {
+  padding-bottom: 120px;
+}
+
+.section-title h5 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.vision-details-goals-list li {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px 0;
+}
+
+.vision-details-goals-list li span {
+  font-size: 18px;
+  color: var(--dark);
+  padding-right: 15px;
+  margin-top: -5px;
+}
+
+/* Vision Details Goals Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .vision-principles-content {
+    padding: 40px;
+  }
+
+  .vision-principles-content h3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .vision-principles-content {
+    padding: 40px;
+  }
+
+  .vision-principles-content h3 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .vision-principles-content {
+    padding: 40px 20px;
+  }
+
+  .vision-principles-content h3 {
+    font-size: 30px;
+  }
+
+  .coaches-goals-card h5 {
+    font-size: 25px;
+  }
+
+  .section-title h5 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
