@@ -202,6 +202,72 @@ nav.navbar .container-fluid {
 
 /* Navigation Section CSS End */
 
+/* Common Hero Section CSS Start */
+
+.common-hero-wrapper {
+  padding: 140px 0 50px;
+  background: var(--secondary);
+}
+
+.common-hero-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark);
+}
+
+/* Common Hero Section CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #595b62;
+  padding: 60px 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+}
+
+.footer-menu h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--light);
+  margin: 0;
+}
+
+.footer-nav {
+  padding-top: 8px;
+}
+
+.footer-nav-alone {
+  padding-top: 33px;
+}
+
+.footer-nav li {
+  padding: 2px 0;
+}
+
+.footer-nav li a {
+  font-size: 16px;
+  color: var(--light);
+}
+
+.footer-copyright {
+  padding: 10px 0;
+  background: #343434;
+}
+
+.footer-copyright p {
+  font-size: 15px;
+  color: #bfbfbf;
+  margin: 0;
+}
+
+/* Footer Part CSS End */
+
 .hero-slider .slick-list {
   height: 100%;
 }
@@ -265,4 +331,52 @@ nav.navbar .container-fluid {
 
 .slick-dots li.slick-active button {
   background: #1c81ca;
+}
+
+/* Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .footer-container {
+    gap: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer-container {
+    gap: 50px;
+  }
+
+  .common-hero-content h2 {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title h2 {
+    font-size: 36px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .common-hero-content h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .common-hero-content h2 {
+    font-size: 30px;
+  }
 }

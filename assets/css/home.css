@@ -564,56 +564,6 @@
 
 /* Main Part CSS End */
 
-/* Footer Part CSS Start */
-
-.footer-wrapper {
-  background: #595b62;
-  padding: 60px 0;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 100px;
-}
-
-.footer-menu h5 {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--light);
-  margin: 0;
-}
-
-.footer-nav {
-  padding-top: 8px;
-}
-
-.footer-nav-alone {
-  padding-top: 33px;
-}
-
-.footer-nav li {
-  padding: 2px 0;
-}
-
-.footer-nav li a {
-  font-size: 16px;
-  color: var(--light);
-}
-
-.footer-copyright {
-  padding: 10px 0;
-  background: #343434;
-}
-
-.footer-copyright p {
-  font-size: 15px;
-  color: #bfbfbf;
-  margin: 0;
-}
-
-/* Footer Part CSS End */
-
 /* Responsive CSS */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -632,10 +582,6 @@
 
   .testimonial-slider {
     max-width: 700px;
-  }
-
-  .footer-container {
-    gap: 50px;
   }
 }
 
@@ -691,17 +637,9 @@
   .testimonial-title h2 {
     font-size: 40px;
   }
-
-  .footer-container {
-    gap: 50px;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .section-title h2 {
-    font-size: 36px;
-  }
-
   .hero-content {
     margin-top: 30px;
     padding: 40px 30px;
@@ -772,18 +710,9 @@
   .schools-slider .slick-next.slick-arrow {
     right: 0px;
   }
-
-  .footer-container {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
-  .section-title h2 {
-    font-size: 32px;
-  }
-
   .hero-content {
     margin-top: 30px;
     padding: 40px 20px;
@@ -898,10 +827,5 @@
   .schools-slider .slick-next.slick-arrow,
   .articles-slider .slick-next.slick-arrow {
     right: -10px;
-  }
-
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
   }
 }
