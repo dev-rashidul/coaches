@@ -134,6 +134,10 @@
   .vision-principles-content h3 {
     font-size: 36px;
   }
+
+  .newsletter-title h2 {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -150,7 +154,11 @@
   }
 
   .section-title h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
+  }
+
+  .newsletter-title h2 {
+    font-size: 32px;
   }
 }
