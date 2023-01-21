@@ -5,10 +5,274 @@
 }
 
 .organization-hero-content {
-  max-width: 950px;
+  max-width: 800px;
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
 /* Organization Hero Section CSS End */
+
+/* Executive Commitee Section CSS Start */
+
+.exe-commitee-text {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.exe-commitee-text h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+  margin: 0;
+}
+
+.current-commitee-text {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.current-commitee-text h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.executive-commitee-card {
+  text-align: center;
+  border: 3px solid var(--gray);
+  border-radius: 16px;
+}
+
+.exe-commitee-card-img img {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-bottom: -50px;
+}
+
+.exe-commitee-card-content {
+  height: 100%;
+  padding: 60px 40px 40px;
+  background: var(--gray);
+  border-radius: 0px 0px 16px 16px;
+}
+
+.exe-commitee-card-content h5 {
+  font-size: 22px;
+  color: var(--dark);
+  font-weight: 700;
+  margin: 0;
+}
+
+.exe-commitee-card-content h6 {
+  font-size: 18px;
+  color: var(--dark);
+  font-weight: 600;
+  margin: 0;
+}
+
+.exe-commitee-card-content p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 20px;
+  margin: 0;
+}
+
+.exe-commitee-card-btn {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+}
+
+.exe-commitee-card-btn a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--light);
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+/* Executive Commitee Section CSS End */
+
+/* Organization Commitees Section CSS Start */
+
+.organization-commitees-wrapper {
+  padding: 120px 0;
+}
+
+.organization-commitees-title {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.organization-commitees-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.organization-commitees-title p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.organization-commitees-card {
+  box-shadow: 8px 8px 25px #00000016;
+  border-radius: 16px;
+}
+
+.org-commitees-card-title h3 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--light);
+  padding: 20px 0;
+  margin: 0;
+  background: #f26b5f;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.org-commitees-card-list {
+  text-align: center;
+  border-left: 3px solid #f5f5f5;
+  border-right: 3px solid #f5f5f5;
+  border-bottom: 3px solid #f5f5f5;
+  border-radius: 0 0 16px 16px;
+  padding: 20px;
+}
+
+.org-commitees-card-list li {
+  font-size: 18px;
+  color: var(--dark);
+  padding: 5px 0;
+}
+
+/* Organization Commitees Section CSS End */
+
+/* Founding Members Section CSS End */
+
+.founding-member-title,
+.faq-title {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.founding-member-title h4,
+.faq-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.founding-member-card {
+  text-align: center;
+  border: 3px solid var(--gray);
+  border-radius: 16px;
+}
+
+.founding-member-card img {
+  max-width: 250px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 50px;
+  margin-bottom: -125px;
+}
+
+.founding-member-card h5 {
+  font-size: 22px;
+  font-weight: 700;
+  background: var(--gray);
+  margin: 0;
+  padding: 155px 0 35px;
+}
+
+/* Founding Members Section CSS End */
+
+/* FAQ Section CSS Start */
+
+.faq-wrapper {
+  padding: 120px 0;
+}
+
+.accordion-item {
+  border: 1px solid #bfbfbf;
+}
+
+.accordion-button::after {
+  margin-right: auto;
+  margin-left: revert;
+  background-image: url(../images/organizational-structure/plus.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/organizational-structure/minus.svg);
+  margin-top: -15px;
+}
+
+.accordion-button {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  background: none;
+  box-shadow: none;
+}
+
+.faq-chaiman-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faq-chairman-card {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.faq-chairman-card img {
+  width: 158px;
+  height: 172px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.faq-chairman-card p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 5px;
+}
+
+/* FAQ Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .org-commitees-card-title h3 {
+    font-size: 25px;
+  }
+}
