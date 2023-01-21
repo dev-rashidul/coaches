@@ -1,0 +1,178 @@
+/* Benefit Club Section CSS Start */
+
+.benefit-club-card {
+  background: var(--gray);
+  border-radius: 16px;
+  margin: 0 10px;
+}
+
+.benefit-club-card-img > img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.benefit-regus-logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+  border-radius: 5px;
+}
+
+.benefit-club-card-content {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.benefit-club-card-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.benefit-club-card-content p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.benefit-details-btn a {
+  border: 1px solid var(--primary);
+}
+
+/* Benefit Club Section CSS Start */
+
+.benefit-club-wrapper {
+  padding: 150px 0;
+}
+
+.benefit-club-card {
+  background: var(--gray);
+  border-radius: 16px;
+}
+
+.benefit-club-card-img > img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.benefit-regus-logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+  border-radius: 5px;
+}
+
+.benefit-club-card-content {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.benefit-club-card-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.benefit-club-card-content p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.benefit-details-btn a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 25px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 30px;
+}
+
+.benefit-details-btn a i {
+  font-size: 14px;
+}
+
+/* Benefit Club Section CSS End */
+
+/* Coaches Benefits Section CSS Start */
+
+.coaches-benefits-wrapper {
+  background: var(--secondary);
+  padding: 100px 0;
+}
+
+.coaches-benefits-wrapper .section-title {
+  max-width: 900px;
+}
+
+.coaches-benefits-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.coaches-benefits-card {
+  text-align: center;
+}
+
+.coaches-benefits-card h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-top: 20px;
+}
+
+.coaches-benefits-card p {
+  font-size: 18px;
+  color: var(--dark);
+  margin: 0;
+}
+
+/* Coaches Benefits Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .benefit-club-card-img > img {
+    height: 280px;
+  }
+
+  .coaches-benefits-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .benefit-club-card-img > img {
+    height: 250px;
+  }
+
+  .benefit-club-card-content h3 {
+    font-size: 25px;
+  }
+
+  .coaches-benefits-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
