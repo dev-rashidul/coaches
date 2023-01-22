@@ -1,0 +1,155 @@
+/* Contact Section HTML Start */
+
+.contact-title {
+  max-width: 330px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact-title h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.contact-container {
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+
+.contact-content {
+  height: 100%;
+  background: var(--light);
+  padding: 60px 80px 60px 40px;
+  border: 3px solid var(--gray);
+  border-radius: 0 16px 16px 0;
+}
+
+.working-hours h5,
+.contact-mailing-address h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--dark);
+  margin: 0;
+}
+
+.working-hours li,
+.contact-mailing-address li {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.contact-social li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.contact-social li a {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.contact-social li i {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  background: var(--gray);
+  margin-left: 15px;
+  border-radius: 100%;
+}
+
+.contact-mailing-address-social li i {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--dark);
+  background: var(--gray);
+  margin-left: 15px;
+  border-radius: 100%;
+}
+
+.contact-whatsapp-btn a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #54c94c;
+  padding: 10px 30px;
+  border: 1px solid #54c94c;
+  border-radius: 30px;
+}
+
+.contact-whatsapp-btn a i {
+  padding-right: 5px;
+}
+
+.contact-form {
+  height: 100%;
+  background: var(--gray);
+  padding: 60px 80px;
+  border-radius: 16px 0 0 16px;
+}
+
+.contact-form h4 {
+  position: relative;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.contact-form h4::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  right: 0;
+  bottom: 0;
+  background: #1c81ca;
+}
+
+.contact-form-field input,
+.contact-form-field textarea {
+  width: 100%;
+  background: var(--light);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 30px;
+}
+
+.contact-form-field input:focus,
+.contact-form-field textarea:focus {
+  outline: 0;
+}
+
+.contact-form-btn button {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+/* Contact Section HTML End */
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact-content {
+    padding: 60px 30px 60px 30px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 991px) {
+  .contact-content {
+    padding: 60px 30px 60px 30px;
+  }
+
+  .contact-form {
+    padding: 60px 30px;
+  }
+}
