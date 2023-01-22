@@ -1,0 +1,219 @@
+/* School Hero Section CSS Start */
+
+.school-hero-wrapper {
+  padding-top: 200px;
+}
+
+.school-hero-container {
+  display: flex;
+}
+
+.school-hero-img {
+  max-width: 350px;
+  width: 100%;
+  background: var(--light);
+  padding: 50px 40px;
+  margin-left: 50px;
+  border: 3px solid var(--gray);
+  border-radius: 16px;
+}
+
+.school-hero-content h3 {
+  font-size: 40px;
+  color: var(--dark);
+  margin: 0;
+}
+
+.school-hero-social li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray);
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.school-hero-social li a i {
+  color: var(--primary);
+}
+
+/* School Contact CSS */
+
+.school-contact-wrapper {
+  background: var(--gray);
+  margin-top: 20px;
+  padding: 50px 40px;
+  border-radius: 16px;
+}
+
+.school-experience h6,
+.school-language h6,
+.school-contact h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 15px;
+}
+
+.school-language-buttons a {
+  font-size: 16px;
+  color: var(--light);
+  background: var(--dark);
+  padding: 5px 15px;
+  margin-left: 5px;
+  border-radius: 30px;
+}
+
+.school-contact-lists li a,
+.school-location li a {
+  color: var(--dark);
+}
+
+.school-contact-lists li i {
+  margin-left: 15px;
+}
+
+.school-location li {
+  padding-top: 36px;
+}
+
+.school-location li i {
+  margin-left: 10px;
+}
+
+/* School Hero Section CSS End */
+
+/* School Advertisement CSS Start */
+
+.school-ad-wrapper {
+  padding: 60px 0;
+}
+
+.school-ad-video-thumb > img {
+  width: 100%;
+  max-height: 485px;
+  min-height: 485px;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.school-ad-video-play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.school-ad-card {
+  height: 100%;
+  background: var(--gray);
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.school-ad-img img {
+  width: 100%;
+  min-height: 320px;
+  max-height: 320px;
+  height: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.school-ad-text {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.school-ad-text h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+/* School Advertisement CSS End */
+
+/* School Info Content CSS Start */
+
+.school-content-wrapper {
+  padding-bottom: 50px;
+}
+
+.school-content {
+  max-width: 900px;
+  width: 100%;
+}
+
+.school-content-box {
+  margin-bottom: 20px;
+}
+
+.school-content-box h5 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark);
+  margin: 0;
+}
+
+.school-content-box p {
+  margin: 0;
+}
+
+/* School Info Content CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .school-ad-text {
+    padding: 20px 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .school-hero-content h3 {
+    font-size: 30px;
+  }
+
+  .school-ad-card {
+    margin-right: 0;
+  }
+
+  .school-ad-text {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .school-hero-container {
+    flex-direction: column;
+  }
+
+  .school-hero-content h3 {
+    font-size: 28px;
+  }
+
+  .school-ad-video-thumb > img {
+    max-height: 300px;
+    min-height: 300px;
+    height: 100%;
+  }
+
+  .school-ad-img img {
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+  }
+
+  .school-ad-card {
+    margin-right: 0;
+  }
+
+  .school-ad-text {
+    padding: 40px 20px;
+  }
+
+  .school-ad-text h4 {
+    font-size: 25px;
+  }
+}
