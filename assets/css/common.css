@@ -60,6 +60,15 @@ p {
   border-radius: 50px;
 }
 
+.secondary-btn {
+  font-size: 16px;
+  color: var(--primary);
+  background: var(--light);
+  border: 1px solid var(--primary);
+  padding: 9px 30px;
+  border-radius: 50px;
+}
+
 .section-title {
   max-width: 800px;
   width: 100%;

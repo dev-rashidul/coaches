@@ -1,0 +1,75 @@
+/* Grade Transition Hero Section CSS Start */
+
+.grade-transition-hero-wrapper {
+  padding: 80px 0 40px;
+}
+
+.grade-transition-hero-content {
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Grade Transition Hero Section CSS End */
+
+/* Grade Transition Coaches Section CSS Start */
+
+.grade-transition-coaches-wrapper {
+  padding-bottom: 80px;
+}
+
+.grade-transition-coaches-wrapper .container {
+  padding: 0 150px;
+}
+
+.grade-transition-coaches-card {
+  text-align: center;
+  background: var(--gray);
+  padding: 60px;
+  border-radius: 16px;
+}
+
+.grade-transition-coaches-card h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+  padding-top: 10px;
+}
+
+.grade-transition-coaches-content {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* Grade Transition Coaches Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .grade-transition-coaches-wrapper .container {
+    padding: 0 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grade-transition-coaches-wrapper .container {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .grade-transition-coaches-wrapper .container {
+    padding: 0px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .grade-transition-coaches-wrapper .container {
+    padding: 0px;
+  }
+
+  .grade-transition-coaches-card h4 {
+    font-size: 25px;
+  }
+}

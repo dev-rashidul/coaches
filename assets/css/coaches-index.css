@@ -1,0 +1,217 @@
+/* Coaches Index Section CSS Start */
+
+.coaches-index-wrapper {
+  padding: 80px 0;
+}
+
+.coaches-index-title {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.coaches-index-title h6 {
+  font-size: 20px;
+  color: var(--dark);
+}
+
+.coaches-index-form form {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.coaches-index-form-field {
+  max-width: 250px;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.coaches-index-form-field select {
+  width: 100%;
+  font-weight: 500;
+  color: var(--dark);
+  padding: 7px 20px;
+  border: 1px solid #342d2c;
+  border-radius: 30px;
+}
+
+.coaches-index-form-field select:focus {
+  outline: 0;
+}
+
+.coaches-index-button-field button {
+  width: 100px;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 7px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+}
+
+.coaches-index-form ::placeholder {
+  color: #bfbfbf;
+}
+
+/* Coaches Index Section CSS End */
+
+/* Coaches Index Card Section CSS Start */
+
+.coaches-index-card-container {
+  padding: 30px 0 60px;
+}
+
+.coaches-index-member-info {
+  padding-top: 40px;
+  border: 3px solid var(--gray);
+  border-radius: 16px 16px 0 0;
+}
+
+.coaches-index-member-info img {
+  max-width: 100px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+  margin-bottom: -40px;
+  border-radius: 100%;
+}
+
+.coaches-index-member-text {
+  background: var(--gray);
+  padding: 60px 0 20px;
+}
+
+.coaches-index-member-text h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+.coaches-index-card hr {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 3px solid var(--light);
+}
+
+.coaches-index-card-content {
+  background: var(--gray);
+}
+
+.coaches-index-member-social {
+  padding: 30px 40px;
+}
+
+.coaches-index-member-social ul li {
+  padding-bottom: 5px;
+}
+
+.coaches-index-member-social ul i {
+  padding-left: 10px;
+}
+
+.coaches-index-member-social ul li a {
+  color: var(--dark);
+}
+
+.coaches-index-card-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: var(--primary);
+  padding: 10px;
+  border-radius: 0 0 16px 16px;
+}
+
+.coaches-index-card-btn a {
+  font-weight: 600;
+  color: var(--light);
+}
+
+.coaches-index-card-btn a i {
+  font-size: 15px;
+}
+
+.coaches-index-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.coaches-index-badge span {
+  background: #1c81ca;
+  color: var(--light);
+  padding: 2px 15px;
+  border-radius: 30px;
+}
+
+/* Coaches Index Pagination */
+
+.coaches-index-pagination {
+  margin-top: 60px;
+}
+
+.pagination-buttons li {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 5px;
+  color: var(--dark);
+}
+
+.pagination-buttons li.active {
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--gray);
+  border-radius: 100%;
+}
+
+/* Coaches Index Card Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .coaches-index-member-social {
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .coaches-index-form form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coaches-index-form-field {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .coaches-index-form form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coaches-index-form-field {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .coaches-index-form form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coaches-index-form-field {
+    max-width: 100%;
+  }
+}
