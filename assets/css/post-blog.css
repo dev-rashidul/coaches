@@ -1,0 +1,188 @@
+/* Post Blog Hero Section CSS Start */
+
+.post-blog-wrapper {
+  padding-top: 90px;
+}
+
+.post-blog-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--secondary);
+}
+
+.post-blog-hero-content,
+.post-blog-hero-img {
+  width: 50%;
+}
+
+.post-blog-hero-content {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  padding-right: 40px;
+}
+
+.post-blog-hero-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.post-blog-hero-content h2 {
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.post-blog-hero-content p {
+  font-size: 18px;
+}
+
+/* Post Blog Hero Section CSS End */
+
+/* About Author Section CSS Start */
+
+.about-author-wrapper {
+  padding: 60px 0 120px;
+}
+
+.author-content-buttons a {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+.author-content-buttons a i {
+  font-size: 15px;
+}
+
+.author-content-buttons h5 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.author-info {
+  text-align: center;
+  margin-right: 50px;
+  border: 3px solid var(--gray);
+  border-radius: 16px;
+}
+
+.author-title h5 {
+  font-size: 22px;
+  text-align: center;
+  background: var(--gray);
+  padding: 12px;
+  margin: 0;
+}
+
+.author-info-text {
+  padding: 30px 10px;
+}
+
+.author-info-text img {
+  width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.author-info-text h6 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-top: 10px;
+  margin: 0;
+}
+
+.author-info-text span {
+  font-size: 16px;
+  color: var(--dark);
+}
+
+.author-info-text p {
+  font-size: 15px;
+  color: var(--dark);
+  padding-top: 10px;
+  margin: 0;
+}
+
+.author-profile-btn {
+  margin: 30px 0 20px;
+}
+
+/* About Author Section CSS End */
+
+/* Publish Article Section CSS Start */
+
+.publish-article-wrapper {
+  background: var(--secondary);
+  padding: 100px 0;
+}
+
+/* Publish Article Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .post-blog-hero-content {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .post-blog-hero-content {
+    padding-right: 30px;
+  }
+
+  .post-blog-hero-content h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .post-blog-hero-content {
+    padding-right: 95px;
+  }
+
+  .post-blog-hero-content h2 {
+    font-size: 36px;
+  }
+
+  .author-info {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .post-blog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-blog-hero-content,
+  .post-blog-hero-img {
+    width: 100%;
+  }
+
+  .post-blog-hero-content {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 0;
+  }
+
+  .post-blog-hero-content h2 {
+    font-size: 32px;
+  }
+
+  .author-content-buttons h5 {
+    font-size: 18px;
+  }
+
+  .author-info {
+    margin-right: 0;
+  }
+}
