@@ -1,0 +1,103 @@
+/* School Registration Hero Section CSS Start */
+
+.school-registraion-hero-wrapper {
+  padding: 100px 0;
+}
+
+.school-registraion-hero-content {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* School Registration Hero Section CSS End */
+
+/* Qualification Requirements Section CSS Start */
+
+.qualification-req-title h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.qualification-req-card {
+  width: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  height: 100%;
+  text-align: center;
+  padding: 40px 30px;
+  background: var(--light);
+  box-shadow: 8px 8px 25px #00000017;
+  border-radius: 16px;
+}
+
+.qualification-req-card p {
+  font-size: 18px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.qualification-requirements-content {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 60px 0 100px;
+}
+
+.qualification-requirements-content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Qualification Requirements Section CSS End */
+
+/* Recognition Process Section CSS Start */
+
+.recognition-process-wrapper {
+  background: var(--secondary);
+  padding: 120px 0;
+}
+
+.recognition-process-content {
+  max-width: 700px;
+  width: 100%;
+}
+
+.recognition-process-content h3 {
+  font-size: 40px;
+  color: var(--dark);
+  margin-bottom: 30px;
+}
+
+.recognition-process-content li,
+.recognition-process-content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--dark);
+  padding: 5px 0;
+}
+
+.recognition-process-content p {
+  margin-bottom: 0;
+}
+
+/* Recognition Process Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .recognition-process-content h3 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .recognition-process-content h3 {
+    font-size: 30px;
+  }
+}
