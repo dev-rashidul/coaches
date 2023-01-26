@@ -16,6 +16,10 @@
   width: 50%;
 }
 
+.post-blog-hero-img img {
+  width: 100%;
+}
+
 .post-blog-hero-content {
   max-width: 400px;
   width: 100%;
@@ -126,6 +130,16 @@
 /* Publish Article Section CSS End */
 
 /* Responsive CSS */
+
+@media (min-width: 1921px) {
+  .post-blog-hero-content {
+    padding-right: 220px;
+  }
+
+  .post-blog-hero-content {
+    max-width: 600px;
+  }
+}
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .post-blog-hero-content {
